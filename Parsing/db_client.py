@@ -1,6 +1,6 @@
 import sqlite3
 
-
+a = ''
 
 def connect():
     conn = sqlite3.connect('flats.db')
