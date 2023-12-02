@@ -1,11 +1,11 @@
 import sqlite3
 
-a = ''
 
 def connect():
     conn = sqlite3.connect('flats.db')
     return conn
 
+a = 'some'
 
 def create_flats_table():
     conn = connect()
@@ -65,5 +65,3 @@ def insert_flat(flat: dict):
 
     conn.commit()
     conn.close()
-
-
